@@ -66,7 +66,13 @@ const prisma = new PrismaClient();
 // Extend Prisma with the caching functionality provided by prisma-redis-cache
 const prismaWithCache = prisma.$extends(prismaCache({ redis, cache }));
 
-// Example: Query a user and cache the result
+// Example: Query a user and cache the result - with async-cache-dedupe
+prismaWithCache.user.findUnique({
+  where: { id },
+  cache: true // No configuration
+});
+
+// Example: Query a user and cache the result - with custom configuration
 prismaWithCache.user.findUnique({
   where: { id },
   cache: { ttl: 5, key: `user:${id}` }, // Cache configuration

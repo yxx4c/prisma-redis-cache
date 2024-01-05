@@ -2,7 +2,7 @@
 
 The `prisma-redis-cache` library is a powerful tool designed to enhance the performance of your Prisma-based applications by seamlessly integrating caching of query results into a Redis/Dragonfly database. This library acts as a bridge between your Prisma queries and the Redis/Dragonfly caching mechanism, helping you reduce latency and enhance the overall responsiveness of your application.
 
-🚀 Enjoying prisma-redis-cache? [⭐ Star Me!](https://github.com/yxx4c/prisma-redis-cache)
+🚀 If `prisma-redis-cache` proves helpful, consider giving it a star! [⭐ Star Me!](https://github.com/yxx4c/prisma-redis-cache)
 
 ### **Installation**
 
@@ -96,6 +96,6 @@ By using `prisma-redis-cache`, you can significantly optimize database access ti
 
 ### Enhance Cache Management with prisma-redis-uncache
 
-Explore [prisma-redis-uncache](../prisma-redis-uncache) for additional cache invalidation capabilities. This library complements `prisma-redis-cache` by providing features for selectively invalidating cached Prisma query results in Redis. Ideal for scenarios requiring real-time data updates.
+Explore [prisma-redis-uncache](https://github.com/yxx4c/prisma-redis-uncache) for additional cache invalidation capabilities. This library complements `prisma-redis-cache` by providing features for selectively invalidating cached Prisma query results in Redis. Ideal for scenarios requiring real-time data updates.
 
-Strike the perfect balance between performance optimization and data accuracy with both prisma-redis-cache` and [prisma-redis-uncache](../prisma-redis-uncache).
+Strike the perfect balance between performance optimization and data accuracy with both prisma-redis-cache` and [prisma-redis-uncache](https://github.com/yxx4c/prisma-redis-uncache).

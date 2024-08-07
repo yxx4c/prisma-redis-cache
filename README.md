@@ -1,4 +1,6 @@
-# prisma-redis-cache
+# The package @yxx4c/prisma-redis-cache has been deprecated. Please use [@yxx4c/prisma-redis-extension](https://github.com/yxx4c/prisma-redis-extension) instead.
+
+## prisma-redis-cache
 
 The `prisma-redis-cache` library is a powerful tool designed to enhance the performance of your Prisma-based applications by seamlessly integrating caching of query results into a Redis/Dragonfly database. This library acts as a bridge between your Prisma queries and the Redis/Dragonfly caching mechanism, helping you reduce latency and enhance the overall responsiveness of your application.
 

@@ -1,7 +1,8 @@
 {
   "name": "@yxx4c/prisma-redis-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prisma extension for caching query results in Redis and DragonflyDB",
+  "deprecated": "The package @yxx4c/prisma-redis-extension has been deprecated. Please use [prisma-extension-redis](https://github.com/yxx4c/prisma-extension-redis) instead.",
   "repository": {
     "type": "git",
     "url": "https://github.com/yxx4c/prisma-redis-cache.git"

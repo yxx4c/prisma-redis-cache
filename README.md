@@ -1,4 +1,4 @@
-# The package @yxx4c/prisma-redis-cache has been deprecated. Please use [@yxx4c/prisma-redis-extension](https://github.com/yxx4c/prisma-redis-extension) instead.
+# The package @yxx4c/prisma-redis-cache has been deprecated. Please use [prisma-extension-redis](https://github.com/yxx4c/prisma-extension-redis) instead.
 
 ## prisma-redis-cache
 
